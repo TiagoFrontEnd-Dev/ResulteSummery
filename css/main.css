@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    width: 614px;
+    height: 428px;
+    box-shadow: 0px 0px 10px 5px rgba(138, 138, 194, 0.616);
+    border-radius: 27px;
+}
+
+main .left-container{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom,  hsl(250, 97%, 62%), hsl(241, 81%, 54%));
+    border-radius: 1.687rem;
+}
+
+.left-container .interface-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.interface-left .title-description h4{
+    display: flex;
+    justify-content: center;
+    color: hsl(251, 100%, 90%);
+    margin-top: 31px;
+}
+
+.interface-left .center-circle {
+    width: 167px;
+    height: 167px;
+    margin: 28px 25%;
+    background: linear-gradient(to bottom,  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.interface-left .center-circle h1, p{
+    display: flex;
+    justify-content: center;
+}
+
+.center-circle h1{
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.center-circle p{
+    font-size: 15px;
+    color: hsl(246, 100%, 74%);
+}
+
+.description-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.paragraph {
+    color: hsl(251, 100%, 90%);
+    display: flex;
+    justify-content: center;
+    padding: 4% 25px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+/* rigt */
+
+main .rigth-container{
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 0px 27px 27px 0px;
+    padding: 31px 33px 40px 33px;
+}
+
+.rigth-container .interface-rigth{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.interface-rigth .title-summary{
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 22px;
+    
+}
+
+.interface-rigth .summary-reactions ul li{
+    width: 240px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.summary-reactions ul li:nth-child(1){
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.158);
+    padding: 0px 12px;
+    margin-bottom: 13px;
+}
+
+.summary-reactions ul li:nth-child(2){
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.158);
+    padding: 0px 12px;
+    margin-bottom: 13px;
+}
+
+.summary-reactions ul li:nth-child(3){
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.158);
+    padding: 0px 12px;
+    margin-bottom: 13px;
+}
+
+.summary-reactions ul li:nth-child(4){
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.158);
+    padding: 0px 12px;
+    margin-bottom: 37px;
+}
+
+.btn button{
+    width: 240px;
+    height: 47px;
+    background-color: hsl(224, 30%, 27%);
+    color: #FFFFFF;
+    font-size: 1rem;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn button:hover{
+    background: linear-gradient(to bottom,  hsl(250, 97%, 62%), hsl(241, 81%, 54%));
+    box-shadow: 0px 0px 15px 3px hsla(250, 97%, 62%, 0.541);
+    font-size: 1.3rem;
+}
+
